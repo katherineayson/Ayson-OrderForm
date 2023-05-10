@@ -1,0 +1,155 @@
+body {
+  font-family: Raleway, sans-serif;
+  background-image: url("imageedit_4_2137721101.png");
+  background-color: #F6AE2D;
+}
+
+
+#bun-type, #burger-quantity, #sauce-type, #pasta-quantity, #fries-size, #fries-flavor, #fries-quantity, #drink-type, #drink-size, #drink-quantity, #delivery-type{
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+ 
+option {
+  font-family: Raleway, sans-serif;
+  color: black;
+}
+
+form {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: 0.3s;
+}
+
+h1, h2{
+  font-family: Quicksand, sans-serif;
+  text-align: center;
+  color: #034C3C;
+}
+
+.title {
+  font-family: Quicksand, sans-serif;
+  text-align: center;
+  color: #9B2915;
+  text-shadow: 2px 1px white;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"], input[type="tel"],
+textarea,
+select {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+textarea {
+  height: 100px;
+  resize:none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  font-family: Raleway, sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #9B2915;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+fieldset {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+legend {
+  background-color: #fff;
+  color: #034C3C;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.textForm{
+  padding: 10px;
+  margin-left: 0px;
+}
+
+.title{
+  font-family: Quicksand, Arial, serif;
+  font-size:50px;
+  font-weight: thick;
+  margin-left:0px;
+  margin-right:0px;
+  transition: 0.3s;
+}
+
+form:hover{
+  transform: scale(1.02);
+}
